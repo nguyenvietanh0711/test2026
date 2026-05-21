@@ -17,9 +17,9 @@ spec:
     spec:
       containers:
         - name: nginx
-          image: nginx:1.25
+          image: nginx:1.26
           env:
             - name: APP_VERSION
-              value: "v1.0.0"
+              value: "v1.0.1"
           ports:
             - containerPort: 80
